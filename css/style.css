@@ -1,0 +1,180 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800);
+@import url(http://fonts.googleapis.com/css?family=Vollkorn:400italic);
+body {
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif !important;
+  font-weight: 200;
+  font-size: 20px; }
+  body h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    color: white;
+    font-size: 2em; }
+  body h4 {
+    font-family: 'Vollkorn', serif;
+    font-weight: 400;
+    font-style: italic;
+    margin: 20px; }
+  body h3 {
+    display: inline; }
+  body h2 {
+    font-weight: 800; }
+
+.icons {
+  margin: 0;
+  padding: 38px;
+  text-align: center; }
+  .icons .item {
+    margin: 15px; }
+    .icons .item .fa {
+      font-size: 1.5em;
+      text-align: center;
+      color: white; }
+
+.fit {
+  border: 5px white;
+  padding: 50px; }
+
+.dot {
+  display: inline;
+  margin: 0 5px;
+  font-size: 1.5em;
+  line-height: 1em;
+  color: #BF272D; }
+
+.parallax-background {
+  background-image: url(../img/PortfolioPlaceholder.png);
+  height: 620px;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: fixed;
+  width: 100%; }
+
+.intro-text {
+  font-size: 50px;
+  color: #fff;
+  text-align: center;
+  margin-top: 5%; }
+
+#intro-box {
+  border: 2px;
+  border-color: white;
+  border-style: solid; }
+
+#bottom {
+  padding: 100px;
+  text-align: center;
+  padding: 150px 20px; }
+
+.descriptionText {
+  text-align: center;
+  padding: 150px 20px; }
+
+.parallax-content {
+  max-width: 100%;
+  position: relative;
+  top: 500px;
+  font-size: 20px;
+  background-color: #fff; }
+
+.skill-block {
+  margin: 0;
+  width: 100%;
+  max-width: 100%;
+  height: 400px; }
+
+.colA {
+  padding: 50px;
+  border: 3px solid white;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%); }
+  .colA h3 {
+    padding: 10px;
+    color: white; }
+
+#web-design {
+  background-color: #1abc9c;
+  height: 100%;
+  padding: 50px; }
+
+.webCol1 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 400px; }
+
+.col2r1 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 200px; }
+
+#web1 {
+  background-image: url(../img/karnesAllen.png); }
+
+#web2 {
+  background-image: url(../img/web2.png);
+  background-size: contain; }
+
+#web3 {
+  background-image: url(../img/web3.png);
+  background-size: contain;
+  border-top: 1px black solid; }
+
+#graphic1 {
+  background-image: url(../img/graphic1.png); }
+
+#graphic2 {
+  background-image: url(../img/graphic2.png); }
+
+#graphic3 {
+  background-image: url(../img/graphic3.png); }
+
+#graphic4 {
+  background-image: url(../img/graphic4.png); }
+
+#photo1 {
+  background-image: url(../img/boston.png); }
+
+#photo2 {
+  background-image: url(../img/sf.png); }
+
+#photo3 {
+  background-image: url(../img/san_diego.png); }
+
+#photo4 {
+  background-image: url(../img/food.png); }
+
+.col2r2 {
+  background-image: url(../img/images-3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 200px; }
+
+.webCol3 {
+  background-image: url(../img/images-4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 400px; }
+
+#graphic-design {
+  background-color: #3498db;
+  height: 100%;
+  padding: 50px; }
+
+#photography {
+  height: 100%;
+  padding: 50px;
+  background-color: #9b59b6; }
+
+#footer {
+  background-color: #BF272D;
+  max-width: 100%; }
